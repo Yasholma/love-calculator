@@ -64,7 +64,8 @@ function App() {
                 <p className="note">Na Joke ooo, no take am serious.</p>
             )}
 
-            <Form getResult={getResult} />
+            {!result ? <Form getResult={getResult} /> : null}
+
             {loading ? (
                 <div className="loading">
                     <img src={loadingImage} alt="loading" />
