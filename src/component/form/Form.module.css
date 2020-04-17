@@ -1,0 +1,46 @@
+.Form {
+    box-shadow: 0 0 0.5rem #fff;
+    padding: 0.6rem 0.5rem 1.5rem;
+    box-sizing: border-box;
+    margin: 1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.Form input {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background: white;
+    box-sizing: border-box;
+    margin: 0.8rem auto;
+    border: 0;
+    font-size: 0.89rem;
+    border-radius: 0.3rem;
+}
+
+.Form button {
+    width: 100%;
+    padding: 0.6rem 0;
+    border: 0;
+    margin: 0.8rem auto 0;
+    border-radius: 5rem;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    position: relative;
+    outline: none;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+.Form button:hover {
+    border-color: black;
+    background: #000;
+    color: white;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+}
